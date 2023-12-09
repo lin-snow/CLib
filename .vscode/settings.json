@@ -1,5 +1,6 @@
 {
     "files.associations": {
         "stdio.h": "c"
-    }
+    },
+    "C_Cpp.default.compilerPath": "D:\\Dev\\MinGW-w64\\bin\\gcc.exe"
 }
