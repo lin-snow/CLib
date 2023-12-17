@@ -4,7 +4,7 @@
 /* 链表节点结构 */
 typedef struct ListNode {
     /*--------------数据域------------*/
-    void * data             /* 数据域 */
+    void * data;             /* 数据域 */
     /*-------------指针域-------------*/
     struct ListNode *next; /* 指向下一个节点的指针 */
 } ListNode;
@@ -15,7 +15,7 @@ typedef struct List {
     ListNode *head; /* 头节点 */
     ListNode *tail; /* 尾节点 */
     int size; /* 节点大小 */
-}
+} List;
 
 /* 初始化链表 */
 void ListInit(ListNode *list)
